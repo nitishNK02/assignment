@@ -1,0 +1,70 @@
+##FUNTION EXAMPLE OF [+,-,*,/]
+def add():
+    num1=int(input("Enter the first number:"))
+    num2=int(input("Enter the second number:"))
+    tot=num1+num2
+    print("THE TOTAL:",tot)
+add()
+
+def sub():
+    num1=int(input("Enter the first number:"))
+    num2=int(input("Enter the second number:"))
+    tot=num1-num2
+    print("THE SUB:",tot)
+sub()
+
+
+def mul():
+    num1=int(input("Enter the first number:"))
+    num2=int(input("Enter the second number:"))
+    tot=num1*num2
+    print("THE MUL:",tot)
+mul()
+
+
+def div():
+    num1=int(input("Enter the first number:"))
+    num2=int(input("Enter the second number:"))
+    tot=num1/num2
+    print("THE DIV:",tot)
+div()
+
+##DICTIONARY
+my_dic={
+         "name": "XXY",
+         "YEAR": "3",
+         "SECTION":"A"
+         
+      }
+print(my_dic)
+
+my_dic["YEAR"]="THIRD"
+
+print(my_dic)
+
+##LIST
+l=[]
+
+for i in range(5):
+    nam=input("Enter the names of 5 studs:")
+    l.append(nam)
+
+print(l)
+l.insert(3,"kumar")
+print(l)
+
+##TUPLE EX
+my_tuple=("34","nk",8,345.665)
+print(my_tuple)
+my_tuple.pop(1) ##shows error becos immutabe
+print(my_tuple) 
+
+#SET
+st=input("Enter a string:")
+print(st)
+
+print(st[ :4])
+
+print(st[ :-1])
+
+
